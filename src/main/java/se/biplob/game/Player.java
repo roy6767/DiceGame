@@ -1,7 +1,7 @@
 package se.biplob.game;
 
 public class Player {
-    private String name;
+    private final String name;
     private int score=0;
     private int won=0;
 

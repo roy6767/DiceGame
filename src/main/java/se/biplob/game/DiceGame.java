@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class DiceGame {
-    public static void startGame(){
+    public void startGame(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to the Dice game. Whoever wins the most round wins the game. ");
 
